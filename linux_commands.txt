@@ -1,0 +1,9 @@
+### ubuntu commands to intall required libraries on EC2
+sudo apt-get update
+sudo apt install python3-pip
+sudo pip install apache-airflow
+sudo pip install pandas 
+sudo pip install s3fs
+
+## to transfer file from local to EC2
+scp -i .\airflow_ETL.pem .\User_ETL.py ubuntu@ec2-186-78-99-159.compute-1.amazonaws.com:/home/ubuntu/user_etl/
