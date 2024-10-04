@@ -1,0 +1,9 @@
+git status
+
+#Origin by convention means the remote from where we cloned-- Original repository
+#form from the github
+
+=> If i add a new file then it shows as untracked
+=> if modify an existing file then it shows modified 
+
+whenever we make changes (unstaged ) --> stage --> commit
